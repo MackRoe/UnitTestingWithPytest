@@ -8,7 +8,6 @@
 
 import math
 
-
 def display_grade_stat():
     """Gathers stats and print them out."""
     grade_list = read_input()
