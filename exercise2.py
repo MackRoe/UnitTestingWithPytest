@@ -26,4 +26,5 @@ def get_age_carbon_14_dating(carbon_14_ratio):
 
 
 def test_get_age_carbon14_dating():
+    assert type(carbon_14_ratio) is float
     assert get_age_carbon_14_dating(0.35) == 8680.34
